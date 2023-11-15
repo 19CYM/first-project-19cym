@@ -1,0 +1,37 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Function Test</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="HomeStyle.css">
+    </head>
+
+    <body>
+        <h1>BackgroundColor Change Function Test</h1>
+
+        <h6>19 CYM</h6>
+
+        <div id="grid">
+            <ol>
+                <ul><a href="Home.html">첫 화면</a></ul>
+                <ul><a href="Word.html">단어</a></ul>
+                <ul><a href="Idiom.html">숙어</a></ul>
+            </ol>
+
+            <div id="article">
+                <p>WEB2 JavaScript</p>
+                <p>버튼을 누르면 백그라운드 색깔이 초록색으로 바뀝니다.</p>
+                
+                <input type="button" value="night" onclick="
+                    document.querySelector('body').style.backgroundColor='green';
+                    document.querySelector('body').style.color='white'
+                    ">
+
+                <input type="button" value="day" onclick="
+                    document.querySelector('body').style.backgroundColor='white';
+                    document.querySelector('body').style.color='green'
+                    ">
+            </div>
+        </div>
+    </body>
+</html>
